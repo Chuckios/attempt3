@@ -1,0 +1,138 @@
+* {
+  font-family: helvetica;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ /*TOP NAV BAR*/
+ .topnav {
+  height: 45px;
+  position: relative;
+  background-color: #37BDDB;
+}
+
+.topnav a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  font-family: candara;
+}
+
+.topnav a:hover{
+  text-decoration: underline;
+}
+/*TOP NAV BAR*/
+
+/*SIDE NAV BAR*/
+
+/*SIDE NAV BAR*/
+
+
+/* TRAINING CALENDAR */
+.calendar {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.calendaritem {
+  background-color: white;
+  border: 1px solid black;
+  padding: 2px;
+  font-size: 15px;
+  text-align: center;
+}
+
+div.centercalendar {
+  height: 10px;
+  position: relative 
+}
+
+div.centercalendar p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+/* TRAINING CALENDAR */
+
+/* CALENDAR COLORS */
+div.ARC-color {
+  color: blue;
+}
+
+div.HB-color {
+  color: red;
+}
+
+div.CB-color {
+  color: orange;
+}
+
+div.PE-color {
+  color: purple;
+}
+/* CALENDAR COLORS */
+
+/*GOAL PICTURE*/
+.goalimg {
+  float: right;
+  height: 600px;
+  width: 400px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.goalcaption {
+  clear: both;
+  float: right;
+  margin: 10px;
+  font-style: italic;
+}
+/*GOAL PICTURE*/
+
+/*PE PICTURE*/
+.PEimg {
+  float: left;
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+  margin-left: -100px;
+  margin-right: 40px;
+}
+
+.PEcaption {
+  clear: both;
+  float: left;
+  font-style: italic;
+}
+
+/*PE PICTURE*/
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul, ol, li {
+  margin: 10px;
+}
+
+main {
+  margin: 15px;
+}
