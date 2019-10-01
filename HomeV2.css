@@ -1,0 +1,88 @@
+* {
+  font-family: 'Julius Sans One', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("https://i.imgur.com/F1PH4Cx.jpg");
+    min-height: 1000px;
+    width: auto;
+    height: 100%;
+
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  .topnav {
+    top: 90px;
+    left: 415px;
+    margin-top: 10px;
+    height: 40px;
+    position: relative;
+}
+
+.topnav a {
+    text-align: center;
+    color: black;
+    margin: 0px 25px;
+    font-size: 35px;
+    text-decoration: none;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.topnav a:hover{
+    text-decoration: underline;
+}
+
+.CCC {
+  position: relative;
+    left: 425px;
+    width: auto;
+
+  }
+
+.CCC a {
+  font-size: 40px;
+  text-decoration: none;
+  text-align: left;
+  border-radius: 5%;
+  color: black;
+  padding: 10px 25px;
+}
+  
+.fancy {
+  font-weight: bold;
+}
+
+.grid-container {
+  padding: 10px 25px;
+  position: relative;
+  left: 425px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
