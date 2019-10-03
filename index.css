@@ -1,0 +1,45 @@
+* {
+  font-family: 'Julius Sans One', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("https://i.imgur.com/F1PH4Cx.jpg");
+    min-height: 1000px;
+    width: auto;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  position: relative;
+  left: 15em;
+  top: 10em;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.grid-item-one {
+  font-size: 5em;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.grid-item a:hover {
+  font-weight: bold;
+}
