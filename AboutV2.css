@@ -1,0 +1,102 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR */
+.topnav {
+  height: 45px;
+  position: relative;
+  background-color: #37BDDB;
+}
+
+.topnav a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  font-family: candara;
+}
+
+.topnav a:hover{
+  text-decoration: underline;
+}
+/*NAV BAR*/
+
+.about {
+  opacity:0.85;
+  text-align: center;
+}
+
+.story {
+  float: left;
+}
+
+.bio1 {
+  left: 0;
+  width: 40%;
+  height: 40%; 
+  float: left;
+  margin-right: 20px;
+}
+
+.bio2 {
+  right: 0;
+  float: right;
+  height: 40%;
+  width: 40%;
+  clear: both;
+  margin-left: 20px;
+}
+
+.bio3 {
+  left: 0;
+  clear: both;
+  width: 50%;
+  height: 50%; 
+  float: left;
+}
+
+.bio4 {
+  right: 0;
+  width: 50%;
+  height: 50%; 
+  float: right;
+
+}
+
+div.list {
+  border: none;
+}
+
+ul.cool, li.cool {
+  clear: both;
+  opacity:0.85;
+  font-size: 14px;
+  padding: 0px 5px 5px 5px;
+  list-style: none;
+
+}
+
+div.cooler {
+clear: left;
+float: left;
+margin-left: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+
+h3.cool {
+  margin: 10px;
+
+}
+
+p {
+  margin-bottom: 5px;
+}

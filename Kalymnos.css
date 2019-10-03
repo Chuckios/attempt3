@@ -1,0 +1,43 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+  }
+
+/* NAV BAR */
+.topnav {
+  height: 45px;
+  position: relative;
+  background-color: #37BDDB;
+}
+
+.topnav a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  font-family: candara;
+}
+
+.topnav a:hover{
+  text-decoration: underline;
+}
+/*NAV BAR*/
+
+.firstimg {
+    height: 300px;
+    width: auto;
+}
+
+.secondimg {
+    height: 300px;
+    width: auto;
+}
+  
+.main {
+    margin: 15px;
+  }
+
