@@ -1,0 +1,153 @@
+* {
+  font-family: Helvetica, sans-serif, arial;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+/*NAVIGATION*/
+.topnav {
+  background-color: #655E5E;
+  overflow: hidden;
+  height: 3em;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 999;
+  }
+  
+.topnav a:nth-child(1) {
+  color: greenyellow;
+  font-family: 'Shadows Into Light';
+  font-size: 1.5em;
+  padding: .25em;
+  margin: 0px;
+  padding-left: .5em;
+  padding-right: .5em;
+  }
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 1em;
+  }
+  
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: underline;
+  }
+  
+.topnav a.active {
+  background-color: greenyellow;
+  color: black;
+  }
+/*NAVIGATION*/
+
+/* TRAINING CALENDAR */
+.calendar {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.calendaritem {
+  background-color: white;
+  border: 1px solid black;
+  padding: 2px;
+  font-size: 15px;
+  text-align: center;
+}
+
+div.centercalendar {
+  height: 10px;
+  position: relative 
+}
+
+/* CALENDAR COLORS */
+div.ARC-color {
+  color: blue;
+}
+
+div.HB-color {
+  color: red;
+}
+
+div.CB-color {
+  color: orange;
+}
+
+div.PE-color {
+  color: purple;
+}
+
+/*GOAL PICTURE*/
+.goalimg {
+  float: right;
+  height: 600px;
+  width: 400px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.goalcaption {
+  clear: both;
+  float: right;
+  margin: 10px;
+  font-style: italic;
+}
+
+/*PE PICTURE*/
+.PEimg {
+  float: left;
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+  margin-left: -100px;
+  margin-right: 40px;
+}
+
+.PEcaption {
+  clear: both;
+  float: left;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul, ol, li {
+  margin: 10px;
+}
+
+main {
+  margin-left: 15em;
+  margin-right: 15em;
+}
+
+hr {
+  margin-top: 2em;
+}
+
+.maincontainer {
+  position: relative;
+  top: 2em;
+}
