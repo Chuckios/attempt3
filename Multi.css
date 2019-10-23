@@ -1,9 +1,10 @@
 * {
   font-family: Helvetica, sans-serif, arial;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.1em;
   }
 
 /*NAVIGATION*/
@@ -14,6 +15,7 @@
   position: fixed; 
   top: 0; 
   width: 100%; 
+  z-index: 999;
   }
   
 .topnav a:nth-child(1) {
@@ -47,3 +49,80 @@
   color: black;
   }
 /*NAVIGATION*/
+
+/*CONTENT*/
+.maincontainer {
+  position: relative;
+  top: 4em;
+  margin-left: 15em;
+  margin-right: 15em;
+  height: 100%;
+}
+
+h2 {
+  margin-top: .25em;
+  margin-bottom: .25em;
+  padding-left: .5em;
+  padding-right: .5em;
+  display: inline-block;
+  color: greenyellow;
+  background-color: #655E5E;
+}
+
+h3 {
+  margin-bottom: .25em;
+  color: black;
+}
+
+p {
+  margin-bottom: .75em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.draw:nth-child(odd) {
+  margin-right: 1.5em;
+}
+
+.draw {
+  border: 1px solid black;
+  padding: .5em;
+  margin-bottom: .5em;
+}
+
+.lastp {
+  margin-bottom: 5em;
+}
+
+
+/*CONTENT*/
+
+/*FOOTER*/
+.bottomfooter {
+  clear: top;
+  width: 100%;
+  height: 5%;
+  clear: top;
+  padding: 0px;
+  margin: 0px;
+  background-color: gray;
+}
+
+.disclaimerheader {
+  font-size: .7em;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+.disclaimer {
+  font-size: .7em;
+  margin-left: .5em;
+  margin-right: .5em;
+  color: black;
+}
